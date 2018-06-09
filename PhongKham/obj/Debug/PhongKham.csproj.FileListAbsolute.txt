@@ -1,0 +1,111 @@
+D:\tiemnv\PhongKham\PhongKham\PhongKham\bin\Debug\PhongKham.exe.config
+D:\tiemnv\PhongKham\PhongKham\PhongKham\bin\Debug\PhongKham.exe
+D:\tiemnv\PhongKham\PhongKham\PhongKham\bin\Debug\PhongKham.pdb
+D:\tiemnv\PhongKham\PhongKham\PhongKham\bin\Debug\BUS.dll
+D:\tiemnv\PhongKham\PhongKham\PhongKham\bin\Debug\BUS.pdb
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\ResolveAssemblyReference.cache
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.ChonBaoCao.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.frmReportMain.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmKhamThem.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmThemDichVu.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmBacSiGui.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.DoiMatKhau.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.FormMain.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmBenhNhan_DV.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmDanhSachBN.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmDichVu.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmDonTiep.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmHuyDichVu.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmLogin.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.frmPhong.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.ImportFileImage.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.QuanTri.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.Resource1.resources
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.csproj.GenerateResource.Cache
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.exe.licenses
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.exe
+D:\tiemnv\PhongKham\PhongKham\PhongKham\obj\Debug\PhongKham.pdb
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\bin\Debug\PhongKham.exe.config
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.exe
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.pdb
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.ChonBaoCao.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.frmReportMain.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmKhamThem.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmThemDichVu.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmBacSiGui.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.DoiMatKhau.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.FormMain.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmBenhNhan_DV.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmDanhSachBN.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmDichVu.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmDonTiep.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmHuyDichVu.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmLogin.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.frmPhong.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.ImportFileImage.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.QuanTri.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.Resource1.resources
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.csproj.GenerateResource.Cache
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\obj\Debug\PhongKham.exe.licenses
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\bin\Debug\PhongKham.exe
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\bin\Debug\PhongKham.pdb
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\bin\Debug\BUS.dll
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\PhongKham\bin\Debug\BUS.pdb
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.exe.config
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.exe
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.pdb
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.exe
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.pdb
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\bin\Debug\BUS.dll
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\bin\Debug\BUS.pdb
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\ResolveAssemblyReference.cache
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.ChonBaoCao.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.frmReportMain.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmKhamThem.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmThemDichVu.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmBacSiGui.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.DoiMatKhau.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.FormMain.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmBenhNhan_DV.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDanhSachBN.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDichVu.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDonTiep.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmHuyDichVu.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmLogin.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmPhong.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.ImportFileImage.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.QuanTri.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.Resource1.resources
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.csproj.GenerateResource.Cache
+D:\tiemnv\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.exe.licenses
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.exe.config
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.exe
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.pdb
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\ResolveAssemblyReference.cache
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.ChonBaoCao.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\GUI.BaoCao.frmReportMain.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmKhamThem.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmThemDichVu.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmBacSiGui.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.DoiMatKhau.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.FormMain.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmBenhNhan_DV.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDanhSachBN.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDichVu.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmDonTiep.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmHuyDichVu.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmLogin.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.frmPhong.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.ImportFileImage.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.QuanTri.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.Resource1.resources
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.csproj.GenerateResource.Cache
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.exe.licenses
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.exe
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.pdb
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\BUS.dll
+E:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\BUS.pdb
+F:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\bin\Debug\PhongKham.exe.config
+F:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.exe
+F:\TIEMNV\Win\PhongKham\new\PhongKham\PhongKham\obj\Debug\PhongKham.pdb

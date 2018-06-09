@@ -1,0 +1,5 @@
+bin\Debug\BUS.dll
+bin\Debug\BUS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BUS.dll
+obj\Debug\BUS.pdb

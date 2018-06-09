@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97E661FA-BEB1-47D3-A64B-52041C5474E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhongKham</RootNamespace>
+    <AssemblyName>PhongKham</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Shared.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.Misc.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraChart.v5.3.Design, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v5.3.FormulaBuilder, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinChart.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v5.3.Design, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinDock.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v5.3.Design, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinInkProvider.Ink17.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinInkProvider.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinListBar.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinMaskedEdit.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTree.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTree.v5.3.Design, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.v5.3, Version=5.3.20053.73, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Baocao\ChonBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocao\ChonBaoCao.designer.cs">
+      <DependentUpon>ChonBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baocao\frmReportMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocao\frmReportMain.designer.cs">
+      <DependentUpon>frmReportMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baocao\rptBienLaiThuTienPhiLePhi4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBienLaiThuTienPhiLePhi4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_BacSiGui.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_BacSiGui.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_BacSiGuiChiTiet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_BacSiGuiChiTiet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_BienLai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_BienLai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_BienLaiThuTien.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_BienLaiThuTien.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_ThongKeTheoPhong.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_ThongKeTheoPhong.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Baocao\rpt_TongDoanhThuTheoDT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_TongDoanhThuTheoDT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmKhamThem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhamThem.Designer.cs">
+      <DependentUpon>frmKhamThem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemDichVu.Designer.cs">
+      <DependentUpon>frmThemDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBacSiGui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBacSiGui.designer.cs">
+      <DependentUpon>frmBacSiGui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CTGlobal.cs" />
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenhNhan_DV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenhNhan_DV.Designer.cs">
+      <DependentUpon>frmBenhNhan_DV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanhSachBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhSachBN.Designer.cs">
+      <DependentUpon>frmDanhSachBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDichVu.Designer.cs">
+      <DependentUpon>frmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonTiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonTiep.Designer.cs">
+      <DependentUpon>frmDonTiep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHuyDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHuyDichVu.Designer.cs">
+      <DependentUpon>frmHuyDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhong.Designer.cs">
+      <DependentUpon>frmPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportFileImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportFileImage.Designer.cs">
+      <DependentUpon>ImportFileImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Baocao\ChonBaoCao.resx">
+      <DependentUpon>ChonBaoCao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\frmReportMain.resx">
+      <DependentUpon>frmReportMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rptBienLaiThuTienPhiLePhi4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBienLaiThuTienPhiLePhi4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_BacSiGui.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_BacSiGui.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_BacSiGuiChiTiet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_BacSiGuiChiTiet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_BienLai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_BienLai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_BienLaiThuTien.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_BienLaiThuTien.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_ThongKeTheoPhong.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_ThongKeTheoPhong.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocao\rpt_TongDoanhThuTheoDT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_TongDoanhThuTheoDT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhamThem.resx">
+      <DependentUpon>frmKhamThem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemDichVu.resx">
+      <DependentUpon>frmThemDichVu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBacSiGui.resx">
+      <DependentUpon>frmBacSiGui.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBenhNhan_DV.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBenhNhan_DV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhSachBN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDanhSachBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDichVu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonTiep.resx">
+      <DependentUpon>frmDonTiep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHuyDichVu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHuyDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportFileImage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportFileImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="QuanTri.resx">
+      <DependentUpon>QuanTri.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuanTri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanTri.designer.cs">
+      <DependentUpon>QuanTri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{8A03FD79-6AE8-4986-9C21-F045A6C63121}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Nhap kho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.Nhap phan loai QV.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.Giao KD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.Nhap TL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.ktra hien truong.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adim1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adim2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adim21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adim.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adreess-book.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_list1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_list.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copia di wooden bucket - full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download8686.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloads.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\energy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exec.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorits-add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fax2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_web.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floppy Drive 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_new.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallery1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallery.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\large-icons2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh22.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh211.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_as1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-as21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-preview11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_preview1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-preview2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

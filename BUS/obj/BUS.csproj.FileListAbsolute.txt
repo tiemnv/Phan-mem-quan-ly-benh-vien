@@ -1,0 +1,5 @@
+D:\DATA-TIEMNV\Win\PhongKham\PhongKham\BUS\bin\Debug\BUS.dll
+D:\DATA-TIEMNV\Win\PhongKham\PhongKham\BUS\bin\Debug\BUS.pdb
+D:\DATA-TIEMNV\Win\PhongKham\PhongKham\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\DATA-TIEMNV\Win\PhongKham\PhongKham\BUS\obj\Debug\BUS.dll
+D:\DATA-TIEMNV\Win\PhongKham\PhongKham\BUS\obj\Debug\BUS.pdb

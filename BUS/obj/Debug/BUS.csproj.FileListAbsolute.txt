@@ -1,0 +1,15 @@
+D:\tiemnv\PhongKham\PhongKham\BUS\bin\Debug\BUS.dll
+D:\tiemnv\PhongKham\PhongKham\BUS\bin\Debug\BUS.pdb
+D:\tiemnv\PhongKham\PhongKham\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\tiemnv\PhongKham\PhongKham\BUS\obj\Debug\BUS.dll
+D:\tiemnv\PhongKham\PhongKham\BUS\obj\Debug\BUS.pdb
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\BUS\obj\Debug\BUS.dll
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\BUS\bin\Debug\BUS.dll
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\BUS\bin\Debug\BUS.pdb
+D:\Work\WINFORM\PhongKham on 10.10.3.71\PhongKham\BUS\obj\Debug\BUS.pdb
+E:\TIEMNV\Win\PhongKham\new\PhongKham\BUS\bin\Debug\BUS.dll
+E:\TIEMNV\Win\PhongKham\new\PhongKham\BUS\bin\Debug\BUS.pdb
+E:\TIEMNV\Win\PhongKham\new\PhongKham\BUS\obj\Debug\ResolveAssemblyReference.cache
+E:\TIEMNV\Win\PhongKham\new\PhongKham\BUS\obj\Debug\BUS.dll
+E:\TIEMNV\Win\PhongKham\new\PhongKham\BUS\obj\Debug\BUS.pdb
